@@ -10,7 +10,7 @@ It includes:
 All built in a clean Object-Oriented Python class with proper exception handling.
 
 Project Structure:
-MNISTClassifier.py      # Main Python script
+handwitten_digits.py      # Main Python script
 HD-Ouput Sample1.png   #Data visualization output
 HD-Ouput Sample2.png   #Remaining output
 The Dataset can be found at: https://infyspringboard.onwingspan.com/common-content-store/Shared/Shared/Public/lex_auth_0131395375426764803690_shared/web-hosted/assets/datasets1603947951084.zip
