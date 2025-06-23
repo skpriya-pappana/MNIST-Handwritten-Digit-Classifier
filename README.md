@@ -3,12 +3,12 @@
 This project implements an Artificial Neural Network (ANN) to classify handwritten digits from the MNIST dataset using scikit-learn's MLPClassifier.
 
 It includes:
-Data visualization
-Preprocessing
-Model training and evaluation
-Predicting new digit images via user input
-
+-Data visualization
+-Preprocessing
+-Model training and evaluation
+-Predicting new digit images via user input
 All built in a clean Object-Oriented Python class with proper exception handling.
+
 Project Structure:
 MNISTClassifier.py      # Main Python script
 train.csv               # MNIST training data with labels
@@ -19,18 +19,18 @@ test.csv                # MNIST test data without labels
 Make sure you have the following installed:
 pip install numpy pandas matplotlib scikit-learn
 How It Works:
-1. Initialization
+1. Initialization:
 The class loads the train.csv and test.csv files using pandas.
-2. Display First Image
+2. Display First Image:
 Displays the first image in both datasets using matplotlib.
-3. Preprocessing
+3. Preprocessing:
 Splits features and labels from training data.
 Fills any missing values (forward fill).
-4. Model Training
+4. Model Training:
 Trains a neural network with one hidden layer (50 nodes) and ReLU activation.
-5. Evaluation
+5. Evaluation:
 It prints a classification report.
-6. Predict New Inputs
+6. Predict New Inputs:
 User can:
 Enter one or more lines of comma-separated pixel values (784 or 785 integers).
 785 → label + 784 pixels (label will be removed automatically)
